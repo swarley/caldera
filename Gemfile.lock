@@ -1,0 +1,64 @@
+PATH
+  remote: .
+  specs:
+    caldera (0.1.0)
+      event_emitter (~> 0.2.6)
+      logging (~> 2.3)
+      permessage_deflate (~> 0.1.4)
+      websocket-driver (~> 0.7.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.1)
+    event_emitter (0.2.6)
+    little-plugger (1.1.4)
+    logging (2.3.0)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.14)
+    multi_json (1.15.0)
+    parallel (1.19.2)
+    parser (2.7.2.0)
+      ast (~> 2.4.1)
+    permessage_deflate (0.1.4)
+    rainbow (3.0.0)
+    rake (12.3.3)
+    regexp_parser (1.8.2)
+    rexml (3.2.4)
+    rubocop (0.93.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.1.5)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8)
+      rexml
+      rubocop-ast (>= 0.6.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-ast (0.8.0)
+      parser (>= 2.7.1.5)
+    rubocop-performance (1.8.1)
+      rubocop (>= 0.87.0)
+      rubocop-ast (>= 0.4.0)
+    ruby-progressbar (1.10.1)
+    unicode-display_width (1.7.0)
+    websocket-driver (0.7.3)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+    yard (0.9.25)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  caldera!
+  event_emitter (~> 0.2.6)
+  logging (~> 2.3)
+  permessage_deflate (~> 0.1.4)
+  rake (~> 12.0)
+  rubocop (~> 0.93.1)
+  rubocop-performance (~> 1.8)
+  websocket-driver (~> 0.7.3)
+  yard (~> 0.9.25)
+
+BUNDLED WITH
+   2.1.4
